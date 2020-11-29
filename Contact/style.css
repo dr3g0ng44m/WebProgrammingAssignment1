@@ -45,16 +45,14 @@ body {
 
 /*---Change Carousel Transition Speed --*/
 
-
-/*-- Carousel Content --*/
-
-
-
-/*===== FIXED BACKGROUND IMG =====*/
+ul.contact {
+    list-style-type: none;
+}
 
 
 
-/*-- Emoji Navbar --*/
+
+
 
 
 
@@ -88,7 +86,6 @@ ul.social li {
 footer .svg-inline--fa {
     font-size: 7rem;
 }
-/*============= SOCKET =============*/
 
 
 
