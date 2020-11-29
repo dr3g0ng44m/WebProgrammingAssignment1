@@ -44,7 +44,6 @@ body {
   }
 .left-top-slogan, .list-inline-item a, .right-top-info a {
     align-items: center;
-    align-items: center;
     color: whitesmoke;
     font-size: 20px;
   }
@@ -65,6 +64,7 @@ body {
 
 .body-content{
     background-image: url("body-background.png");
+    align-content: center;
 }
 
 .header {
@@ -98,7 +98,6 @@ body {
 .header .col-lg-3{
   align-items: center;
 }
-
 
 .image-col, .illu-img{
     display:flex;
