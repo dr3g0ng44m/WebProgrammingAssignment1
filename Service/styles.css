@@ -1,0 +1,84 @@
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) { } 
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) { } 
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) { }
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) { }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) { }
+/*========== Non-Mobile First Method ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) { }
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) { }
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) { 
+  .menu-col img{
+    width: 100%;
+   }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) { }
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) { }
+
+.w3-third {width:33.33333%}
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  background-color: rgb(247, 247, 247);
+}
+
+.top-bar {
+    align-content: center;
+    align-items: center;
+    border-width: 4px;
+    background-color: #22b14c;
+  }
+.left-top-slogan, .list-inline-item a, .right-top-info a {
+    align-items: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 20px;
+  }
+
+.html{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.language-selection a{
+  font-size: 10px;
+  font-weight: 90px;
+  color: darkgreen;
+}
+.language {
+  float: right;
+}
+
+.body-content{
+    background-image: url("body-background.png");
+}
+
+.image-col, .illu-img{
+    display:flex;
+    align-items:center;
+}
+
+.image-col img{
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.illu-img{
+    display:flex;
+    align-items:center;
+}
