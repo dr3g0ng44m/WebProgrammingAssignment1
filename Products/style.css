@@ -51,7 +51,10 @@ ul.contact {
 
 
 
-
+.card img {
+    max-height: 10rem!important;
+    width: auto;
+}
 
 
 
